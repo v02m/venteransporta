@@ -1,0 +1,32 @@
+{
+  "name": "forsovetveteransport",
+  "version": "1.0.0",
+  "description": "For Sovet veteran sport",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp.spritesmith": "^6.10.1",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v02m/veteransporta.git"
+  },
+  "author": "Valerius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v02m/veteransporta/issues"
+  },
+  "homepage": "https://github.com/v02m/veteransporta#readme"
+}

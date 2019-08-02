@@ -1,0 +1,15 @@
+{
+    "workbench.colorCustomizations": {
+        "tab.unfocusedActiveBorder": "#fff0"
+    }
+}
+{ 
+"key": "tab", 
+"command": "tab", 
+"when": "editorTextFocus && !editorTabMovesFocus" 
+}, 
+{ 
+"key": "tab", 
+"command": "editor.emmet.action.expandAbbreviation", 
+"when": "editorTextFocus && !editorHasSelection && !editorHasMultipleSelections && !editorTabMovesFocus" 
+}
