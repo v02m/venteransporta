@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "normalize.scss": "^0.1.0"
+    "normalize.scss": "^0.1.0",
+    "static-eval": "^2.0.2"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
