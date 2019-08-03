@@ -1,0 +1,66 @@
+- let classforlink =  "portfolio-list wow fadeInUp animated"
+
+- let linkforlink1 = "product-10/index.htm"
+- let linkforlink2 = "product-9/index.htm"
+- let linkforlink3 = "product-8/index.htm"
+- let linkforlink4 = "product-7/index.htm"
+- let linkforlink5 = "product-6/index.htm"
+- let linkforlink6 = "product-5/index.htm"
+- let linkforlink7 = "product-4/index.htm"
+- let linkforlink8 = "product/index.htm"
+- let linkforlink9 = "product-11/index.htm"
+
+- let urlimg1 = "../../images/portfolio-3-560x450.jpg"
+- let urlimg2 = "../../images/portfolio-8-560x450.jpg"
+- let urlimg3 = "../../images/portfolio-7-560x450.jpg"
+- let urlimg4 = "../../images/portfolio-2-560x450.jpg"
+- let urlimg5 = "../../images/portfolio-4-560x450.jpg"
+- let urlimg6 = "../../images/portfolio-5-560x450.jpg"
+- let urlimg7 = "../../images/portfolio-6-560x450.jpg"
+- let urlimg8 = "../../images/portfolio-9-560x450.jpg"
+- let urlimg9 = "../../images/portfolio-1-560x450.jpg"
+
+- let project1 = "Paper Project"
+- let project2 = "Multinational Project"
+- let project3 = "Restaurant Project"
+- let project4 = "Web Design Project"
+- let project5 = "Renewable Resource Project"
+- let project6 = "WildLife Project"
+- let project7 = "Photography Project"
+- let project8 = "Web Development Project"
+- let project9 = "Music Project"
+
+- let styleAnimation = "visibility: visible; animation-delay: 0.15s; animation-name: fadeInUp;"
+
+mixin projectLink(linkforlink, classlink, delay, style, urlimg, project)
+    a(href=linkforlink class=classlink data-wow-delay=delay style=style)
+                .portfolio-wrap
+                    .portfolio-overlay
+                        span.portfolio__spanOver-mod +
+                    .portfolio-image
+                        img(src=urlimg alt=project)
+                    h3.portfolio__h3-mod #{project}
+
+section#section-9.parallax-section.clearfix.portfolio_template.portfolio
+
+    .mid-content.portfolio__container
+        h2.portfolio__h2-mod
+            span.portfolio__span-mod Portfolio
+
+        .parallax-content
+            .page-content
+                p(style="text-align: center;") Mauris faucibus odio ante, semper pretium ante imperdiet in. Donec ac ornare odio. In hac habitasse platea dictumst.
+
+
+        .portfolio-listing.clearfix
+
+            +projectLink(linkforlink1, classforlink, "0.15s", styleAnimation, urlimg1, project1)
+            +projectLink(linkforlink2, classforlink, "0.15s", styleAnimation, urlimg2, project2)
+            +projectLink(linkforlink3, classforlink, "0.15s", styleAnimation, urlimg3, project3)
+            +projectLink(linkforlink4, classforlink, "0.15s", styleAnimation, urlimg4, project4)
+            +projectLink(linkforlink5, classforlink, "0.15s", styleAnimation, urlimg5, project5)
+            +projectLink(linkforlink6, classforlink, "0.15s", styleAnimation, urlimg6, project6)
+            +projectLink(linkforlink7, classforlink, "0.15s", styleAnimation, urlimg7, project7)
+            +projectLink(linkforlink8, classforlink, "0.15s", styleAnimation, urlimg8, project8)
+            +projectLink(linkforlink9, classforlink, "0.15s", styleAnimation, urlimg9, project9)
+
