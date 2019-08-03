@@ -1,0 +1,196 @@
+#section-7 {
+    background: url() no-repeat scroll top left #f6f6f6;
+    background-size: cover;
+    color: #444444;
+}
+
+.service_template {
+    padding-bottom: 40px;
+}
+
+.parallax-section {
+    padding: 60px 0 80px;
+    position: relative;
+}
+
+.parallax-section .mid-content {
+    position: relative;
+    z-index: 999;
+}
+
+.mid-content {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.parallax-section h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 20px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.parallax-section h2 span {
+    position: relative;
+    display: inline-block;
+}
+
+.parallax-section h2 span:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    top: 100%;
+    left: 50%;
+    margin-left: -25%;
+    margin-top: 10px;
+    border-bottom: 2px solid;
+    border-color: inherit;
+}
+
+
+.parallax-section .page-content {
+    margin: 0 0 60px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.clearfix:before, 
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.service-list.odd {
+    float: left;
+    text-align: right;
+}
+
+.service-list {
+    width: 48%;
+    margin-bottom: 40px;
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.service-list.odd .service-image {
+    float: right;
+}
+
+.service-list .service-image {
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+    overflow: hidden;
+    border: 3px solid #EEE;
+}
+
+.service-list .service-image img {
+    padding: 15px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.service-list.odd .service-detail {
+    float: left;
+}
+
+.service-list .service-detail {
+    width: 460px;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.service-list.even {
+    float: right;
+}
+
+.service-list.even .service-image {
+    float: left;
+}
+
+.service-list.even .service-detail {
+    float: right;
+}
+
+.service-list h3 {
+    margin-bottom: 15px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.parallax-section input[type="text"],
+.parallax-section input[type="email"],
+.parallax-section input[type="url"],
+.parallax-section input[type="password"],
+.parallax-section input[type="search"],
+.parallax-section input[type="tel"],
+.parallax-section textarea {
+    border: 1px solid #E66432;
+    color: inherit;
+    padding: 10px 15px;
+    height: 42px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.parallax-section textarea {
+    line-height: 1.5;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: 180px;
+}
+
+.parallax-section .wpcf7-form .wpcf7-submit {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background: #E66432;
+}
+
+.parallax-section .wpcf7-form p {
+    margin-bottom: 15px;
+}
+
+.parallax-section .slider-caption .caption-description a,
+.parallax-section .btn {
+    border-color: inherit;
+    color: inherit;
+}
+
